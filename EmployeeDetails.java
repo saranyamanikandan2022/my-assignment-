@@ -5,8 +5,8 @@ public class EmployeeDetails {
 	public void printEmployeeName(String empName, int empId) 
 	{
 		
-			System.out.println("empName:"+empName);
-			System.out.println("empId:"+empId);
+			System.out.println(empName);
+			System.out.println(empId);
 			}
 		public void getEmployeeAddress(String empAddress)
 		{
@@ -27,7 +27,7 @@ public static void main(String[] args)
 		{
 			EmployeeDetails emp=new EmployeeDetails();
 			emp.printEmployeeName("saranya",409);
-		    emp.getEmployeeAddress("pollachi");
+		        emp.getEmployeeAddress("pollachi");
 			emp.printEmployeeSalary(56000.80);
 			emp.printEmployeeMobileNumber(7904616837L);
 
