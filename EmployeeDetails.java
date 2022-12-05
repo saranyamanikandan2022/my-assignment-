@@ -11,16 +11,16 @@ public class EmployeeDetails {
 		public void getEmployeeAddress(String empAddress)
 		{
 		
-			System.out.println("empAddress:"+empAddress);
+			System.out.println(empAddress);
 		}
 		public void printEmployeeSalary(double empSalary)
 		{
 			
-			System.out.println("empSalary:"+empSalary);
+			System.out.println(empSalary);
 		}
 		public void printEmployeeMobileNumber(long mobileNum)
 		{
-			System.out.println("mobileNum:"+mobileNum);
+			System.out.println(mobileNum);
 		}
 		
 public static void main(String[] args) 
