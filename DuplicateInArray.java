@@ -1,24 +1,16 @@
 package week2;
 
 public class DuplicateInArray {
-	public static void main(String[] args)
-	{
-		int[] array= {70,55,3,70,55,54,28,55,70,19,78,34,70};
-		int arraylength=array.length;
-	for(int i=0;i<arraylength-1;i++) {
-		int count=1;
-	for(int j=i+1;j<arraylength-1;j++) {
-		if(array[i]==array[j]) {
-			count=count+1;
-			}
-		}
-			if(count>1) {
-				System.out.println(array[i]);
-				}
-			}
-
-	}
-
-}
-
+	public static void main(String[] args) {  
+        //Initialize array  
+        int [] arr = new int [] {1, 2, 3, 4, 2, 7, 8, 8, 3};  
+        System.out.println("Duplicate elements in given array: ");  
+        //Searches for duplicate element  
+        for(int i = 0; i < arr.length; i++) {  
+            for(int j = i + 1; j < arr.length; j++) {  
+                if(arr[i] == arr[j])  
+                    System.out.println(arr[j]);  
+            }  
+        }  
+    }  
 
