@@ -31,7 +31,7 @@ public class LaunchChromeBrowser {
    driver.findElement(By.name("lastNameLocal")).sendKeys("mani");
    driver.findElement(By.id("createLeadForm_departmentName")).sendKeys("Testing");
    driver.findElement(By.id("createLeadForm_numberEmployees")).sendKeys("123123123");
-   driver.findElement(By.name("tickerSymbol")).sendKeys("*");
+   driver.findElement(By.name("tickerSymbol")).sendKeys("#");
    driver.findElement(By.id("createLeadForm_primaryPhoneAreaCode")).sendKeys("624107");
    driver.findElement(By.id("createLeadForm_primaryPhoneExtension")).sendKeys("1826");
    driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("saranyavelumani1999@gmail.com");
