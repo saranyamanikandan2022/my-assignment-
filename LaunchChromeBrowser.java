@@ -23,13 +23,13 @@ public class LaunchChromeBrowser {
    driver.findElement(By.id("createLeadForm_lastName")).sendKeys("M");
    driver.findElement(By.name("firstNameLocal")).sendKeys("Saranya");
    driver.findElement(By.name("personalTitle")).sendKeys("Tester");
-   driver.findElement(By.name("generalProfTitle")).sendKeys("SoftwareEngineer");
+   driver.findElement(By.name("generalProfTitle")).sendKeys(" junior Software Tester");
    driver.findElement(By.id("createLeadForm_annualRevenue")).sendKeys("9000000");
    driver.findElement(By.id("createLeadForm_sicCode")).sendKeys("512015");
    driver.findElement(By.name("description")).sendKeys("Tester");
    driver.findElement(By.name("importantNote")).sendKeys("Tester");
    driver.findElement(By.name("lastNameLocal")).sendKeys("mani");
-   driver.findElement(By.id("createLeadForm_departmentName")).sendKeys("Testing");
+   driver.findElement(By.id("createLeadForm_departmentName")).sendKeys("SoftwareTester");
    driver.findElement(By.id("createLeadForm_numberEmployees")).sendKeys("123123123");
    driver.findElement(By.name("tickerSymbol")).sendKeys("#");
    driver.findElement(By.id("createLeadForm_primaryPhoneAreaCode")).sendKeys("624107");
