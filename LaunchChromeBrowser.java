@@ -12,29 +12,7 @@ public class LaunchChromeBrowser {
 	driver.get("http://leaftaps.com/opentaps/control/main");
    driver.manage().window().maximize();
    
-   // enter the username 
-   
-   driver.findElement(By.id("username")).sendKeys("DemoCsr");
-    
-   //enter the password
-   driver.findElement(By.id("password")).sendKeys("crmsfa");
-   
-   // click login
-   
-   driver.findElement(By.className("decorativeSubmit")).click();
-   
-   // click crmsfa link
-   driver.findElement(By.linkText("CRM/SFA")).click();
-   
-   //  click on leads tap
-   driver.findElement(By.linkText("Leads")).click();
-   
-   // click on create lead button
-   driver.findElement(By.partialLinkText(" Create Leads")).click();
-   
-   // enter the company
-   
-   driver.findElement(By.id("username")).sendKeys("DemoCsr");
+  driver.findElement(By.id("username")).sendKeys("DemoCsr");
    driver.findElement(By.id("password")).sendKeys("crmsfa");
    driver.findElement(By.className("decorativeSubmit")).click();
    driver.findElement(By.linkText("CRM/SFA")).click();
